@@ -1,3 +1,6 @@
+// src/App.js
+
+import Posts from "./components/Posts";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -8,6 +11,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>React Posts Sharer</h1>
       </header>
+      <Posts />
     </div>
   );
 }
